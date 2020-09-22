@@ -30,7 +30,7 @@ export class UserComponentComponent implements OnInit {
       const {results} = response;
       const [data] = results;
       const{email,name,phone,picture} = data;
-      this.name = `${name.first} ${name.second}`;
+      this.name = name.first;
       this.email = email;
       this.phone = phone;
       this.picture = picture.large;

@@ -1,8 +1,9 @@
-<p>user-component works!</p>
-<div>
-    <h2> {{ name }} </h2>
-    <p> Email: {{ email }} </p>
-    <p> Phone: {{ phone }} </p>
+<section>
     <img [src]="picture">
-    <button (click) = 'handleClick()'>Get Random User</button>
-</div>
+        <div>
+            <h2> {{ name }} </h2>
+            <p> Email: {{ email }} </p>
+            <p> Phone: {{ phone }} </p>
+            <button (click) = 'handleClick()'>Get Random User</button>
+        </div>
+    </section>
